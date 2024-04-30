@@ -1,4 +1,4 @@
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,32 +7,28 @@
     display: flex;
     flex-wrap: wrap;
 }
-.spaceBetween {
-    justify-content: space-between;
-}
 header {
     align-items: center;
     background-color: black;
     padding: 20px 80px;
 }
-.logo {
-    width: 50%;
-}
-.logo {
+.musc{
     width: 100%;
-}
-.logo{
-    height: 50;
-
-}
-ul {
-    list-style-type: none;
+    height: 50%;
 }
 nav {
     width: 50%;
 }
-a {
+.rel{
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
     text-decoration: none;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rel a{
+    text-decoration: none;
+    color: white;
+
 }
