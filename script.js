@@ -17,7 +17,8 @@ function affichelesInstruments(instruments){
        // construire une petite carte
        // l'ajouter dans la div qui a l'id instruments
        document.querySelector("#instruments").innerHTML +=`<div class="card">
-       <img src="${instru.image}" alt="">
+       <img class="image"src="${instru.image}" alt="">
+       <instruments class="instru"src="${instruments.inst}" alt="">
        <h4>${instru.nom}</h4>
        <p>${instru.description}</p>
    </div>
@@ -36,4 +37,44 @@ function affichelesInstruments(instruments){
     </div>`
     })
   }
+  function affichelesAvantagesClients(Clients){`
+    Clients.forEach(c=>{
+        console.log(c)
+        document.querySelector("#Clients").innerHTML+=
+  })`
+
+
+
+
+
+  }
+
+function afficheLesTemoignages(Temoignages){
+    Temoignages.forEach(t =>{
+        console.log(t)
+        document.querySelector("#temoignages").innerHTML+=`
+        <div>
+        <h3>${t.prenom}</h3>
+        <h4>${t.typeExperience}</h4>
+        <p>${t.commentaire}</p>
+        <p>${t.note}</p>
+        </div>
+        `
+    })
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
