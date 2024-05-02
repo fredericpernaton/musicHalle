@@ -11,7 +11,7 @@ fetch("instrumentsMusiques.json")
 function affichelesInstruments(instruments){
     // instruments : le tableau de produits
     // pour chacun des instruments du tableau : 
-    instruments.array.forEach(instru => {
+    instruments.forEach(instru => {
         
     
        // construire une petite carte
