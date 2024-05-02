@@ -16,7 +16,7 @@ function affichelesInstruments(instruments){
     
        // construire une petite carte
        // l'ajouter dans la div qui a l'id instruments
-       document.querySelector("#instrument").innerHTML +=`<div class="card">
+       document.querySelector("#instruments").innerHTML +=`<div class="card">
        <img src="${instru.image}" alt="">
        <h4>${instru.nom}</h4>
        <p>${instru.description}</p>
